@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import axiosWithAuth from '../axiosWithAuth'
 import {useHistory} from 'react-router-dom';
 import { MainPageContainer2, FormContainer, FormSpacing2, Links2 } from '../../styled-components'
-import jwt_decode from "jwt-decode";
+
 
 
 export default function OperatorLogin({setIsLoggedIn}) {
